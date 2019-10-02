@@ -1,0 +1,9 @@
+
+<div class="card border-secondary mb-4">
+  <div class="card-header text-white bg-secondary">
+    Products
+  </div>
+  <ul class="list-group">
+    <app-product *ngFor="let product of products" [product]="product" class="list-group-item"></app-product>
+  </ul>
+</div>

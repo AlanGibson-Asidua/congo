@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1000,
+    "product_name": "Kimchi refrigerator",
+    "category": "Appliances",
+    "brand": "Sharp",
+    "price": 115.63,
+    "description": "In the works of Burroughs, a predominant concept is the distinction between destruction and creation. A number of constructions concerning the stasis, and therefore the futility, of postcapitalist language exist. Therefore, if the constructivist paradigm of reality holds, we have to choose between predialectic narrative and pretextual narrative."
+  },
+  {
+    "id": 1001,
+    "product_name": "Hair dryer",
+    "category": "Appliances",
+    "brand": "Blue Star",
+    "price": 41.93,
+    "description": "Baudrillard suggests the use of dialectic libertarianism to challenge capitalism. But if the constructivist paradigm of reality holds, we have to choose between dialectic libertarianism and Derridaist reading."
+  },
+  {
+    "id": 1002,
+    "product_name": "Can opener",
+    "category": "Appliances",
+    "brand": "Electrolux",
+    "price": 55.44,
+    "description": "The capitalist paradigm of narrative implies that language is capable of social comment, given that reality is equal to language. However, Brophy states that we have to choose between predialectic narrative and predialectic modernist theory."
+  },
+  {
+    "id": 1003,
+    "product_name": "Ceiling fan",
+    "category": "Appliances",
+    "brand": "Blue Star",
+    "price": 45.22,
+    "description": "If dialectic libertarianism holds, we have to choose between Derridaist reading and postdialectic sublimation. In a sense, the premise of the constructivist paradigm of reality holds that class has significance."
+  },
+  {
+    "id": 1004,
+    "product_name": "Flame supervision device",
+    "category": "Appliances",
+    "brand": "Bosch",
+    "price": 166.52,
+    "description": "In the works of Gibson, a predominant concept is the distinction between figure and ground. Debord’s critique of pretextual cultural theory states that culture serves to reinforce outmoded, elitist perceptions of class, but only if patriarchial subtextual theory is valid; if that is not the case, we can assume that the State is capable of significance. In a sense, Bataille uses the term ‘socialism’ to denote the common ground between identity and class."
+  },
+  {
+    "id": 2000,
+    "product_name": "Split Been",
+    "category": "Coffee",
+    "brand": "Sumatara",
+    "price": 5.48,
+    "description": "Bespoke small batch messenger bag chicharrones slow-carb cloud bread chia 8-bit 3 wolf moon pop-up taxidermy. Cold-pressed sriracha hot chicken sustainable you probably haven't heard of them. Farm-to-table skateboard heirloom, tote bag 3 wolf moon godard cred put a bird on it vaporware small batch. Thundercats selvage pop-up pickled organic roof party succulents seitan. Schlitz farm-to-table kitsch microdosing, street art helvetica church-key godard post-ironic beard retro. Quinoa PBR&B taiyaki stumptown humblebrag tousled air plant cred kogi four dollar toast ennui vape. Chillwave thundercats blog, fixie offal pinterest succulents copper mug brooklyn."
+  },
+  {
+    "id": 2001,
+    "product_name": "Spilt Forrester",
+    "category": "Coffee",
+    "brand": "Blue Mountain",
+    "price": 6.36,
+    "description": "Fashion axe pug viral wolf stumptown jean shorts deep v yuccie pok pok small batch disrupt kale chips keytar tattooed retro. Kitsch cornhole four loko, letterpress vegan salvia taiyaki tousled food truck cold-pressed chambray. Woke hashtag neutra readymade organic. Raw denim art party drinking vinegar vinyl scenester lo-fi venmo craft beer cray kitsch pour-over ugh keytar chillwave. Synth typewriter seitan gentrify, mlkshk normcore coloring book adaptogen. Put a bird on it migas pop-up hoodie brunch chillwave heirloom freegan aesthetic green juice forage butcher. Tacos cornhole lomo austin succulents asymmetrical disrupt hot chicken edison bulb stumptown church-key fixie tumeric."
+  },
+  {
+    "id": 2002,
+    "product_name": "Seattle Light",
+    "category": "Coffee",
+    "brand": "Mokka",
+    "price": 7.24,
+    "description": "Single-origin coffee organic letterpress skateboard franzen mumblecore chambray butcher crucifix knausgaard kogi. Polaroid irony 3 wolf moon, etsy farm-to-table fanny pack portland raw denim intelligentsia gentrify woke church-key hammock af vegan. Asymmetrical blog adaptogen, live-edge authentic whatever VHS raclette la croix. Art party bitters freegan keytar before they sold out, seitan crucifix."
+  },
+  {
+    "id": 2003,
+    "product_name": "Melty Look",
+    "category": "Coffee",
+    "brand": "Red Bourbon",
+    "price": 8.9,
+    "description": "Poutine organic four dollar toast jean shorts art party austin heirloom deep v tote bag 8-bit. Kitsch normcore blue bottle tacos stumptown brooklyn retro VHS. Unicorn photo booth leggings craft beer marfa yuccie chartreuse chia trust fund retro. Retro seitan wolf celiac VHS tumblr listicle. Ennui raw denim adaptogen ethical iceland copper mug. Gastropub aesthetic cliche succulents marfa banh mi. Austin kale chips literally squid skateboard kickstarter celiac tilde."
+  },
+  {
+    "id": 2004,
+    "product_name": "Veranda Cake",
+    "category": "Coffee",
+    "brand": "Yellow Bourbon",
+    "price": 3.02,
+    "description": "YOLO tilde everyday carry chia, mumblecore kitsch craft beer selvage drinking vinegar farm-to-table af. Thundercats post-ironic humblebrag, keffiyeh normcore plaid truffaut banjo mumblecore iceland franzen you probably haven't heard of them. Banh mi ethical hell of actually forage locavore kombucha pitchfork vegan lomo man bun tbh. Flannel bushwick ethical migas brooklyn gluten-free pop-up."
+  },
+  {
+    "id": 3000,
+    "product_name": "Stone IPA",
+    "category": "Beer",
+    "brand": "Pabst Blue Ribbon",
+    "price": 7.43,
+    "description": "Pilsner"
+  },
+  {
+    "id": 3002,
+    "product_name": "Sapporo Premium",
+    "category": "Beer",
+    "brand": "Pacifico",
+    "price": 9.93,
+    "description": "India Pale Ale"
+  },
+  {
+    "id": 3003,
+    "product_name": "Trois Pistoles",
+    "category": "Beer",
+    "brand": "Fosters",
+    "price": 9.42,
+    "description": "India Pale Ale"
+  },
+  {
+    "id": 3004,
+    "product_name": "Stone Imperial Russian Stout",
+    "category": "Beer",
+    "brand": "Lowenbrau",
+    "price": 9.94,
+    "description": "German Wheat And Rye Beer"
+  },
+  {
+    "id": 4000,
+    "product_name": "Cover Her Face",
+    "category": "Books",
+    "brand": "Del Rey Books",
+    "price": 5.79,
+    "description": "Now were up in the big leagues getting' our turn at bat. Come and listen to a story about a man named Jed - a poor mountaineer barely kept his family fed. Now were up in the big leagues getting' our turn at bat. The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless crew the Minnow would be lost. the Minnow would be lost?"
+  },
+  {
+    "id": 4001,
+    "product_name": "Butter In a Lordly Dish",
+    "category": "Books",
+    "brand": "Tarpaulin Sky Press",
+    "price": 5.66,
+    "description": "In 1972 a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless crew the Minnow would be lost. the Minnow would be lost. All of them had hair of gold like their mother the youngest one in curls. Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. We're gonna make our dreams come true. Why do we always come here? I guess well never know. Its like a kind of torture to have to watch the show. Makin their way the only way they know how. That's just a little bit more than the law will allow? Didn't need no welfare states. Everybody pulled his weight. Gee our old Lasalle ran great. Those were the days."
+  },
+  {
+    "id": 4002,
+    "product_name": "The Wives of Bath",
+    "category": "Books",
+    "brand": "Tachyon Publications",
+    "price": 6.48,
+    "description": "Baby if you've ever wondered - wondered whatever became of me. I'm living on the air in Cincinnati. Cincinnati WKRP. Come and knock on our door. We've been waiting for you. Where the kisses are hers and hers and his. Three's company too."
+  },
+  {
+    "id": 4003,
+    "product_name": "If I Forget Thee Jerusalem",
+    "category": "Books",
+    "brand": "Hay House",
+    "price": 9.68,
+    "description": "Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth. Go Speed Racer. Go Speed Racer. Go Speed Racer go! The Love Boat soon will be making another run. The Love Boat promises something for everyone? He's gainin' on you so you better look alive. He busy revin' up his Powerful Mach 5. No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. They're creepy and they're kooky mysterious and spooky. They're all together ooky the Addams Family. Here's the story of a man named Brady who was busy with three boys of his own. Just two good ol' boys Wouldn't change if they could. Fightin' the system like a true modern day Robin Hood. They're creepy and they're kooky mysterious and spooky. They're all together ooky the Addams Family? Said Californ'y is the place you ought to be So they loaded up the truck and moved to Beverly. Hills that is. Swimmin' pools movie stars. They're creepy and they're kooky mysterious and spooky. They're all together ooky the Addams Family. The Brady Bunch the Brady Bunch that's the way we all became the Brady Bunch! Goodbye gray sky hello blue. There's nothing can hold me when I hold you. Feels so right it cant be wrong. Rockin' and rollin' all week long."
+  },
+  {
+    "id": 4004,
+    "product_name": "The Stars' Tennis Balls",
+    "category": "Books",
+    "brand": "Blue Ribbon Books",
+    "price": 6.43,
+    "description": "Fish don't fry in the kitchen and beans don't burn on the grill. Took a whole lotta tryin' just to get up that hill. Knight Rider: A shadowy flight into the dangerous world of a man who does not exist. I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you! Thank you for being a friend. Travelled down the road and back again. Your heart is true you're a pal and a confidant."
+  },
+  {
+    "id": 5000,
+    "product_name": "The Sign",
+    "category": "Music",
+    "brand": "Joy Division",
+    "price": 9.73,
+    "description": "You wanna be where you can see our troubles are all the same. You wanna be where everybody knows Your name., Movin' on up to the east side. We finally got a piece of the pie. Just two good ol' boys Never meanin' no harm. Beats all you've ever saw been in trouble with the law since the day they was born. They're creepy and they're kooky mysterious and spooky. They're all together ooky the Addams Family."
+  },
+  {
+    "id": 5001,
+    "product_name": "Riot!",
+    "category": "Music",
+    "brand": "O.A.R.",
+    "price": 3.54,
+    "description": "In 1972 a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground."
+  },
+  {
+    "id": 5002,
+    "product_name": "HIStory: Past, Present and Future, Book I",
+    "category": "Music",
+    "brand": "Cream",
+    "price": 7.59,
+    "description": "It's time to put on makeup. It's time to dress up right. It's time to raise the curtain on the Muppet Show tonight. Doin' it our way. There's nothing we wont try. Never heard the word impossible. This time there's no stopping us. Go Speed Racer. Go Speed Racer. Go Speed Racer go."
+  },
+  {
+    "id": 5003,
+    "product_name": "Bridge over Troubled Water",
+    "category": "Music",
+    "brand": "AC/DC",
+    "price": 4.98,
+    "description": "Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth."
+  },
+  {
+    "id": 5004,
+    "product_name": "The Eminem Show",
+    "category": "Music",
+    "brand": "Nigel Kennedy",
+    "price": 7.76,
+    "description": "Space. The final frontier. These are the voyages of the Starship Enterprise. Flying away on a wing and a prayer. Who could it be? Believe it or not its just me. Thank you for being a friend. Travelled down the road and back again. Your heart is true you're a pal and a confidant."
+  }
+]

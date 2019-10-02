@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1000,
+    "product_name": "Kimchi refrigerator",
+    "category": "Appliances",
+    "brand": "Sharp",
+    "price": 115.63,
+    "description": "Impedit quia aspernatur. Et ducimus eum. Illum vel suscipit."
+  },
+  {
+    "id": 1001,
+    "product_name": "Hair dryer",
+    "category": "Appliances",
+    "brand": "Blue Star",
+    "price": 41.93,
+    "description": "Quibusdam error et. Aut labore sint. Ipsa modi animi."
+  },
+  {
+    "id": 1002,
+    "product_name": "Can opener",
+    "category": "Appliances",
+    "brand": "Electrolux",
+    "price": 55.44,
+    "description": "Eum exercitationem voluptas. In adipisci commodi. Iure perferendis cum."
+  },
+  {
+    "id": 1003,
+    "product_name": "Ceiling fan",
+    "category": "Appliances",
+    "brand": "Blue Star",
+    "price": 45.22,
+    "description": "Consequatur enim et. Adipisci ut commodi. Et recusandae quis."
+  },
+  {
+    "id": 1004,
+    "product_name": "Flame supervision device",
+    "category": "Appliances",
+    "brand": "Bosch",
+    "price": 166.52,
+    "description": "Atque velit et. Et quia sed. Magni rerum culpa."
+  },
+  {
+    "id": 2000,
+    "product_name": "Split Been",
+    "category": "Coffee",
+    "brand": "Sumatara",
+    "price": 5.48,
+    "description": "Delicate, chewy, lemonade, grassy, peanut"
+  },
+  {
+    "id": 2001,
+    "product_name": "Spilt Forrester",
+    "category": "Coffee",
+    "brand": "Blue Mountain",
+    "price": 6.36,
+    "description": "Vibrant, smooth, lime, jasmine, soil"
+  },
+  {
+    "id": 2002,
+    "product_name": "Seattle Light",
+    "category": "Coffee",
+    "brand": "Mokka",
+    "price": 7.24,
+    "description": "Astringent, full, apricot, rubber, passion fruit"
+  },
+  {
+    "id": 2003,
+    "product_name": "Melty Look",
+    "category": "Coffee",
+    "brand": "Red Bourbon",
+    "price": 8.9,
+    "description": "Vibrant, creamy, squash, liquorice, sweet pea"
+  },
+  {
+    "id": 2004,
+    "product_name": "Veranda Cake",
+    "category": "Coffee",
+    "brand": "Yellow Bourbon",
+    "price": 3.02,
+    "description": "Faint, tea-like, hibiscus, carmel, snow pea"
+  },
+  {
+    "id": 3000,
+    "product_name": "Stone IPA",
+    "category": "Beer",
+    "brand": "Pabst Blue Ribbon",
+    "price": 7.43,
+    "description": "Pilsner"
+  },
+  {
+    "id": 3002,
+    "product_name": "Sapporo Premium",
+    "category": "Beer",
+    "brand": "Pacifico",
+    "price": 9.93,
+    "description": "India Pale Ale"
+  },
+  {
+    "id": 3003,
+    "product_name": "Trois Pistoles",
+    "category": "Beer",
+    "brand": "Fosters",
+    "price": 9.42,
+    "description": "India Pale Ale"
+  },
+  {
+    "id": 3004,
+    "product_name": "Stone Imperial Russian Stout",
+    "category": "Beer",
+    "brand": "Lowenbrau",
+    "price": 9.94,
+    "description": "German Wheat And Rye Beer"
+  },
+  {
+    "id": 4000,
+    "product_name": "Cover Her Face",
+    "category": "Books",
+    "brand": "Del Rey Books",
+    "price": 5.79,
+    "description": "Pariatur quasi maxime. Totam non aut. Nisi animi non."
+  },
+  {
+    "id": 4001,
+    "product_name": "Butter In a Lordly Dish",
+    "category": "Books",
+    "brand": "Tarpaulin Sky Press",
+    "price": 5.66,
+    "description": "Voluptas autem similique. Mollitia vero atque. Voluptatem sit quia."
+  },
+  {
+    "id": 4002,
+    "product_name": "The Wives of Bath",
+    "category": "Books",
+    "brand": "Tachyon Publications",
+    "price": 6.48,
+    "description": "Similique quas aperiam. Rerum doloribus minima. Non iusto et."
+  },
+  {
+    "id": 4003,
+    "product_name": "If I Forget Thee Jerusalem",
+    "category": "Books",
+    "brand": "Hay House",
+    "price": 9.68,
+    "description": "Est est ullam. Quia molestiae sed. Tempore voluptate voluptatem."
+  },
+  {
+    "id": 4004,
+    "product_name": "The Stars' Tennis Balls",
+    "category": "Books",
+    "brand": "Blue Ribbon Books",
+    "price": 6.43,
+    "description": "Magnam explicabo repellat. Itaque ducimus quae. Animi modi sapiente."
+  },
+  {
+    "id": 5000,
+    "product_name": "The Sign",
+    "category": "Music",
+    "brand": "Joy Division",
+    "price": 9.73,
+    "description": "Est sint adipisci. Ut sit magni. Eos quo laboriosam."
+  },
+  {
+    "id": 5001,
+    "product_name": "Riot!",
+    "category": "Music",
+    "brand": "O.A.R.",
+    "price": 3.54,
+    "description": "Illum quos sapiente. Sed reiciendis in. Autem sint veritatis."
+  },
+  {
+    "id": 5002,
+    "product_name": "HIStory: Past, Present and Future, Book I",
+    "category": "Music",
+    "brand": "Cream",
+    "price": 7.59,
+    "description": "Omnis atque iusto. Sed tempora ut. Necessitatibus qui eos."
+  },
+  {
+    "id": 5003,
+    "product_name": "Bridge over Troubled Water",
+    "category": "Music",
+    "brand": "AC/DC",
+    "price": 4.98,
+    "description": "Nihil cum aut. Exercitationem dignissimos optio. Laborum quae expedita."
+  },
+  {
+    "id": 5004,
+    "product_name": "The Eminem Show",
+    "category": "Music",
+    "brand": "Nigel Kennedy",
+    "price": 7.76,
+    "description": "Ea ab quia. Eveniet veniam quis. Enim natus ut."
+  }
+]

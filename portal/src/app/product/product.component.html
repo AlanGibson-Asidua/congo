@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-1 text-secondary text-center">
+    <p class="mt-2"><i class="fa-2x" [ngClass]="product.iconClass()"></i></p>
+  </div>
+  <div class="col">
+    <strong>{{ product.productName }}</strong>
+    <div class="product-details">
+      <div>Price: <strong class="price">{{ product.price | currency:'£' }}</strong></div>
+      <div class="category">Category: <strong>{{ product.category }}</strong></div>
+      <div class="brand">Brand: <strong>{{ product.brand }}</strong></div>
+      <p class="description font-italic mt-2" *ngIf="product.description">
+        {{ product.description }}
+      </p>
+    </div>
+  </div>
+  <div class="col-3 text-right">
+    <button class="btn btn-sm btn-primary" (click)="addToBasket()">
+      <i class="fas fa-shopping-basket"></i>
+      Add to basket
+    </button>
+  </div>
+</div>

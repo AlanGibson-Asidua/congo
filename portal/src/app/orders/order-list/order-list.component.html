@@ -1,0 +1,11 @@
+<div class="card border-secondary mb-4">
+  <div class="card-header text-white bg-secondary">
+    Orders
+  </div>
+  <div class="card-body" *ngIf="orders.length == 0">
+    <i>No orders found.</i>
+  </div>
+  <ul class="list-group">
+    <app-order-list-item *ngFor="let order of orders" [order]="order" class="list-group-item"></app-order-list-item>
+  </ul>
+</div>

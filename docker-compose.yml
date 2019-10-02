@@ -1,0 +1,92 @@
+version: "3"
+
+services:
+
+  portal:
+    build:
+      context: .
+      dockerfile: ./portal.dockerfile
+    volumes:
+      - ./portal:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "4200:4200"
+    depends_on:
+      - products
+      - basket
+      - recommendations
+      - orders
+  
+  products:
+    build:
+      context: .
+      dockerfile: ./services.products.dockerfile
+    volumes:
+      - ./services/products:/usr/src/app
+    ports:
+      - "5001:5000"
+
+  basket:
+    build:
+      context: .
+      dockerfile: ./services.basket.dockerfile
+    volumes:
+      - ./services/basket:/usr/src/app
+    ports:
+      - "5002:5000"
+    depends_on:
+      - mysql
+      - products
+    links:
+      - mysql:mysql
+      - products:products.congo.com
+      - orders:orders.congo.com
+    environment:
+      - no_proxy=products.congo.com,orders.congo.com
+
+  recommendations:
+    build:
+      context: .
+      dockerfile: ./services.recommendations.dockerfile
+    volumes:
+      - ./services/recommendations:/usr/src/app
+    ports:
+      - "5003:5000"
+    depends_on:
+      - products
+      - basket
+    links:
+      - products:products.congo.com
+      - basket:basket.congo.com
+    environment:
+      - no_proxy=products.congo.com,basket.congo.com
+
+  orders:
+    build:
+      context: .
+      dockerfile: ./services.orders.dockerfile
+    volumes:
+      - ./services/orders:/usr/src/app
+    ports:
+      - "5004:5000"
+    depends_on:
+      - mysql
+      - products
+    links:
+      - mysql:mysql
+      - products:products.congo.com
+    environment:
+      - no_proxy=products.congo.com
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=congo
+      - MYSQL_USER=congo
+      - MYSQL_PASSWORD=congo123
+    volumes:
+      - mysqldata:/var/lib/mysql
+
+volumes:
+  mysqldata:
