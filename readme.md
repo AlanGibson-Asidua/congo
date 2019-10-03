@@ -39,26 +39,27 @@ Secondly the order (history & details) views:
 
 The orders module contains a number of components, a service and its
 own subset of routes. In this version of the application the module is
-very much part of the application, but we need to _"externalize"_ it
+very much part of the application, but I want to _"externalize"_ it
 so that it can be hosted on a different server/container and loaded
 dynamically at runtime (rather than build time).
 
 __*But why?*__
 
-In reality we are likely to have a number of modules that are 'owned'
-by different teams and we want those teams to be able to deploy new 
-versions of their modules without having to rebuild and redeploy
-the overall portal. Those modules will also be tracked in their
+In a complex micro-service environment there are likely to be a number 
+of modules that are 'owned' by different teams and those teams should 
+be able to deploy new versions of their modules without having to rebuild 
+and redeploy the portal. Those modules will also be tracked in their
 own code repositories and benefit from their own CI/CD pipelines.
 
-Other than integrating with the overall portal application via
-menus and routing there is likely to be little interaction between the 
-components in these feature modules and components from other modules.
+In many cases, such as this Orders module, other than integrating with 
+the overall portal application via menus and routing there may be  
+little interaction between the components in these feature modules 
+and components in other modules.
 
 ### 2. Externalise the basket & recommendations components
 
 These parts of the application are not currently organised into their
-own modules, but they do need to be treated as feature modules in the
+own modules, but they should be treated as feature modules in the
 longer term and externalised for the same reasons as described above for
 the orders module.
 
@@ -69,7 +70,9 @@ view and the basket needs to update in real time when that button is pressed.
 Likewise, as the basket content changes, the recommendations component needs to 
 update automatically.
 
-So we need to figure out how to build and integrate external components.
+So I need to figure out how to build and integrate external components that
+can interact with other components from outside of their own module and still
+benefit from independent development and delivery.
 
 ### 3. Implement a "store" within the application / modules
 
@@ -78,7 +81,7 @@ a complex Single Page Application is likely to use some sort of state
 container - something like [Redux](https://redux.js.org/) or
 [Akita](https://netbasal.gitbook.io/akita/) for example.
 
-We need to implement a proper state management pattern.
+We need to implement a proper state management pattern - preferably Akita.
 
 
 ## Quickstart
@@ -102,7 +105,7 @@ dependencies etc.
 The database schema will get setup by the services automatically, but if
 you want to change the models then you will need to do that manually or,
 at least, drop the tables so they get recreated by the services. You
-can access the database
+can access the database within the mysql container like this:
 
 ```bash
 # docker-compose exec mysql bash
@@ -129,22 +132,25 @@ Bye
 ## Frequently asked questions
 
 #### Why Congo?
+
 I'm no geographer, but apparently the Congo is the second largest tropical 
 rainforest in the world. Second place is still pretty good...
 
 #### Why can I place an order without paying?
+
 You're very welcome!
 
 #### The recommendations seem a bit arbitrary...
+
 Agreed - it's a simplistic and somewhat random algorithm. 
 
 Loosely speaking, what it does is search for products based on matching 
 words from the descriptions but ignoring short words. Basically, it's 
 over-complicated nonsense - look at the code in the recommendations service 
-and see for yourself. But it was good fun playing with the various 
-Python functions.
+and see for yourself.
 
 #### Speaking of the product descriptions ... they're a bit weird!
+
 Thank you - I'll take that as a compliment. 
 
 If you're looking for an alternative to standard Lorem Ipsum text 
@@ -157,6 +163,7 @@ but if there is something then I apologise. Let me know and I'll clean
 it up.
 
 #### I still don't like the product descriptions - can I generate my own?
+
 Yes you can. Take a look in the `tools/products` folder. It contains
 a ruby script that uses the popular 
 [Faker](https://github.com/faker-ruby/faker)
@@ -178,25 +185,32 @@ as faker has been reproduced for a number of different languages:
 _As you can see, there's no excuse for boring test data!_
 
 #### It doesn't support multiple customers - that's just ridiculous!
+
 It's just a spike...but feel free to fork the project and satisfy
 that itch yourself if you like.
 
 #### Why are there no unit tests?
+
 Please refer to the previous point.
 
 #### Those services don't seem very resilient...
+
 You're absolutely correct - well spotted! Please refer to the previous
 point.
 
+#### You should never let microservices share a database!
+
+Once again, you are correct. But, remember, this is just a spike.
+
 #### Why Angular rather than React or VueJS
+
 I just happened to be working on an Angular project. Would love to redo
 it in VueJS (definitely) and React (maybe) if I can find the time.
 
-#### Why Python / Flask rather than x, y or z?
+#### Why Python / Flask for the services rather than x, y or z?
+
 Python & Flask were things I hadn't used before and it's always 
 fun to try something new. 
-
-You have to admit the code is pretty simple - right? 
 
 The other options I considered were:
 
