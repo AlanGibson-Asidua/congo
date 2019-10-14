@@ -17,6 +17,20 @@ services:
       - recommendations
       - orders
 
+  portal-nginx:
+    build:
+      context: .
+      dockerfile: ./portal-nginx.dockerfile
+    volumes:
+      - ./portal/dist/congo:/usr/share/nginx/html
+    ports:
+      - "8080:8080"
+    depends_on:
+      - products
+      - basket
+      - recommendations
+      - orders
+
   orders-frontend-node:
     build:
       context: .
