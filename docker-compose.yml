@@ -16,6 +16,29 @@ services:
       - basket
       - recommendations
       - orders
+
+  orders-frontend-node:
+    build:
+      context: .
+      dockerfile: ./orders.frontend-node.dockerfile
+    volumes:
+      - ./orders:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "4201:4200"
+    depends_on:
+      - orders
+
+  orders-frontend-nginx:
+    build:
+      context: .
+      dockerfile: ./orders.frontend-nginx.dockerfile
+    volumes:
+      - ./orders/dist/orders:/usr/share/nginx/html
+    ports:
+      - "8081:8080"
+    depends_on:
+      - orders
   
   products:
     build:

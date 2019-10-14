@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { CatalogueComponent } from './catalogue/catalogue.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: CatalogueComponent }
+  { path: '', component: HomeComponent },
+  { path: 'orders', loadChildren: './orders/orders.module#OrdersModule' }
 ];
 
 @NgModule({

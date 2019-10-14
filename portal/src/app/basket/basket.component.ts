@@ -48,7 +48,8 @@ export class BasketComponent implements OnInit {
       .submit()
       .subscribe((result: BasketItem[]) => {
         this.basketService.emptyBasket(true);
-        this.router.navigate(['orders']);
+        //this.router.navigate(['orders']);
+        this.router.navigate(['']);
       });
   }
 

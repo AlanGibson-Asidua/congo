@@ -10,7 +10,7 @@ import { OrderService } from '../order.service';
 })
 export class OrderListComponent implements OnInit {
 
-  orders: Order[];
+  orders: Order[] = [];
 
   constructor(
     private orderService: OrderService
